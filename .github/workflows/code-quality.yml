@@ -1,0 +1,19 @@
+name: Code Quality 🧪
+on: push
+jobs:
+  Prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install modules
+        run: npm install
+      - name: Check Prettier
+        run: npm run format:check
+  ESLint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install modules
+        run: npm install
+      - name: Check ESLint
+        run: npm run lint
