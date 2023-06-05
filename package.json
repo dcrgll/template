@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.11.14",
-    "@prisma/client": "^4.11.0",
+    "@prisma/client": "^4.15.0",
     "autoprefixer": "10.4.14",
     "next": "canary",
     "next-auth": "^4.20.1",
